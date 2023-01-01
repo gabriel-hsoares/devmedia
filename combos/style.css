@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+.paragrafo {
+    text-align: justify;
+}
+
+.topo {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+.combo-1 {
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid red;
+    padding: 20px 40px 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.redondo {
+    text-align: center;
+    padding-top: 8px;
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+.pedido {
+    background-color: red;
+    width: 250px;
+    text-align: center;
+    color: white;
+    padding: 8px 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    right: 20px;
+}
