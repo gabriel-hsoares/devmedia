@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+    background-color: #fff;
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+
+.topo {
+    width: 100%;
+    background-color: #00cad1;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.conteudo-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.links-topo a:hover {
+    color: #004b4c;
+}
+
+.logo {
+    height: 60px;
+}
+
+.especialidades {
+    text-align: center;
+    padding: 20px;
+}
+
+.especialidades a {
+    padding: 15px 0px 0;
+    text-decoration: none;
+    border-bottom: solid #00cad1;
+    margin: 0 10px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+#ortopedia,
+#psicologia,
+#geriatria,
+#fisioterapia,
+#pediatria {
+    padding: 20px 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #00cad1;
+    text-align: left;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+}
+
+table td {
+    padding: 20px 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(195, 194, 194, 0.533);
+}
+
+.tabela-especialidade {
+    display: flex;
+}
+
+.tabela-especialidade img {
+    width: 300px;
+}
+
+.container-conteudo {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container {
+    text-align: center;
+}
