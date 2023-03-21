@@ -1,16 +1,16 @@
-
+import './style.css'
 
 
 export default function Topo() {
   return (
     <header>
-      <div>
+      <div className="container-topo limitar-secao">
         <img src="assets/logo.png"/>
 
-        <nav>
-          <a href="">PRODUTOS</a>
-          <a href="">SOBRE</a>
-          <a href="">CONTATO</a>
+        <nav className="navbar">
+          <a href="#produtos">PRODUTOS</a>
+          <a href="#sobre">SOBRE</a>
+          <a href="#contato">CONTATO</a>
         </nav>
       </div>
     </header>
