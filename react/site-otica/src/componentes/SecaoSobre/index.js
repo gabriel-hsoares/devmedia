@@ -4,7 +4,7 @@ export default function SecaoSobre() {
   return (
     <section id="sobre" className="secao-sobre">
       <div className="quemsomos limitar-secao">
-        <h3>QUEM SOMOS NÓS?</h3>
+        <h2>QUEM SOMOS NÓS?</h2>
         <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas Vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
       
         <div className="elementos">

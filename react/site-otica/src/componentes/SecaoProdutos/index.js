@@ -15,23 +15,23 @@ export default function SecaoProdutos() {
             <p>R$ 500,00</p>
           </div>
           <div className="card">
-            <h3>Óculos de grau</h3>
+            <h3>Óculos Transitioin</h3>
             <img src="assets/oculos02.png"/>
-            <p>R$ 500,00</p>
+            <p>R$ 750,00</p>
           </div>
           <div className="card">
-            <h3>Óculos de grau</h3>
+            <h3>Óculos de sol</h3>
             <img src="assets/oculos03.png"/>
-            <p>R$ 500,00</p>
+            <p>R$ 700,00</p>
           </div>
           <div className="card">
-            <h3>Óculos de grau</h3>
+            <h3>Óculos Infantil</h3>
             <img src="assets/oculos04.png"/>
             <p>R$ 500,00</p>
           </div>
           
         </div>
-        <p>Todos nossos produtos incluem:</p>
+        <p className="modificado">Todos nossos produtos incluem:</p>
         <ul>
           <li>Garantia de 1 ano</li>
           <li>Manutenção preventiva</li>

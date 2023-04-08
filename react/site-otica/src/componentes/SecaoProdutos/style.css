@@ -78,4 +78,10 @@ li {
   ul {
     align-items: flex-start;
   }
+  .modificado {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+  }
 }

@@ -1,9 +1,9 @@
 .secao-capa {
+  /* background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%); */
   background-image: url('/public/assets/capa.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /* background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%); */
   height: 80vh;
 }
 
