@@ -1,0 +1,137 @@
+main .secao-banner {
+  background-image: url('/public/assets/banner-home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 90vh;
+  /* margin-top: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 219, 121);
+}
+
+.texto-banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 30px;
+  text-transform: uppercase;
+}
+
+.texto-banner h1 {
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.secao-sabores,
+.secao-eventos,
+.secao-sobre {
+  display: flex;
+}
+
+.secao-sabores img,
+.secao-eventos img,
+.secao-sobre img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.texto-sabores,
+.texto-eventos,
+.texto-sobre {
+  width: 50%;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sabores h2,
+.texto-eventos h2,
+.texto-sobre h2 {
+  font-size: 35px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.texto-sabores span,
+.texto-eventos span,
+.texto-sobre span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.texto-sabores p,
+.texto-eventos p,
+.texto-sobre p {
+  padding: 0 100px;
+  line-height: 26px;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .texto-banner h1 {
+    font-size: 40px;
+  }
+
+  .texto-sabores h2,
+  .texto-eventos h2,
+  .texto-sobre h2 {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .texto-banner h1 {
+    font-size: 60px;
+  }
+
+  .secao-sabores {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secao-sabores img {
+    width: 100%;
+  }
+
+  .texto-sabores,
+  .texto-eventos,
+  .texto-sobre {
+    width: 100%;
+    padding: 100px 10px;
+    text-align: center;
+  }
+
+  .secao-eventos {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .secao-eventos img {
+    width: 100%;
+  }
+
+  .secao-sobre {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .secao-sobre img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .texto-eventos,
+  .texto-sabores,
+  .texto-sobre {
+    padding: 0px 50px;
+  }
+}

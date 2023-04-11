@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.rodape-site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.rodape-site img {
+  width: auto;
+  height: 100px;
+}
+
+.endereco,
+.contato,
+.horarios {
+  color: #fff;
+}
+
+.direito-autoral {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .rodape-site {
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+
+  .rodape-site div {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
