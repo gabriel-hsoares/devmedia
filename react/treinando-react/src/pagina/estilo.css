@@ -1,0 +1,46 @@
+.div1 {
+  width: 50vw;
+  height: 100vh;
+  background-color: #012863;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: bisque;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.div2 {
+  width: 50vw;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 h2 {
+  margin-bottom: 30px;
+}
+
+
+.login {
+  margin-bottom: 12px;
+}
+
+.login input,
+.senha input {
+  background-color: pink;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+.home {
+  display: flex;
+}
+

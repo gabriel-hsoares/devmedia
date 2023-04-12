@@ -4,7 +4,7 @@ main .secao-banner {
   background-position: center;
   background-size: contain;
   height: 90vh;
-  /* margin-top: 80px; */
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,9 +101,9 @@ main .secao-banner {
     width: 100%;
   }
 
-  .texto-sabores,
-  .texto-eventos,
-  .texto-sobre {
+  .secao-eventos div,
+  .secao-sabores div,
+  .secao-sobre div {
     width: 100%;
     padding: 100px 10px;
     text-align: center;
