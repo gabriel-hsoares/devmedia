@@ -1,0 +1,186 @@
+.secao-capa {
+  display: flex;
+  background-image: url('/public/assets/capa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.secao-capa div {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secao-endereco {
+  padding: 80px 20px;
+}
+
+.subtitulo {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #214961;
+  font-weight: 600;
+}
+
+.subtitulo span {
+  text-decoration: underline;
+  text-decoration-color: rgb(196, 196, 8);
+
+}
+
+.diferenca {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.secao-diferenciais {
+  padding: 80px 20px;
+  background-color: rgb(241, 239, 237);
+}
+
+.secao-parceiros {
+  padding: 80px 20px;
+  background-color: rgb(241, 239, 237);
+}
+
+.secao-missao {
+  padding: 100px 20px;
+}
+
+.todos-parceiros img {
+  width: 200px;
+  padding: 30px;
+}
+
+.todos-parceiros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.diferenca img {
+  width: 40px;
+}
+
+.diferenca p {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.diferenciais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid rgb(216, 210, 210);
+  border-radius: 12px;
+  box-shadow: 2px 2px 15px 2px #d9dde1;
+  padding: 40px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.secao-endereco iframe {
+  border: none;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #214961;
+}
+
+.card p {
+  font-size: 14.1px;
+  color: #214961;
+}
+
+
+.titulo {
+  line-height: 72px;
+}
+
+.titulo h1 {
+  color: aliceblue;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.titulo p {
+  color: whitesmoke;
+  font-size: 36px;
+}
+
+.secao-capa span {
+  text-decoration: underline;
+  text-decoration-color: rgb(10, 179, 10);
+}
+
+@media screen and (max-width: 425px) {
+  .secao-capa {
+    background-position: right;
+  }
+
+  .diferenciais {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+  }
+
+  .titulo h1 {
+    font-size: 48px;
+  }
+
+  .titulo {
+    line-height: 40px;
+  }
+  
+  .titulo p {
+    font-size: 22px;
+  }
+
+  .todos-parceiros img {
+    width: 50%;
+  }
+
+  .secao-endereco iframe {
+    width: 100%;
+  }
+}
+

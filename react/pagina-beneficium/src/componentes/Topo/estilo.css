@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  background-image: linear-gradient(to left, #0770AD, #214961, #04446A);
+  background-size: 130% 100%;
+  border-bottom: 1px solid rgb(217, 211, 211);
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+.conteudo-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteudo-topo img {
+  width: 200px;
+  /* height: 80px; */
+}
+
+.link-navegacao {
+  margin: 0 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.link-navegacao:hover {
+  animation: sub-animado 3s;
+  border-bottom: 1px solid #fff;
+}
+
+@keyframes sub-animado {
+  0% {
+    border-bottom-width: 0%;
+
+  }
+  50% {
+    border-bottom-width: 50%;
+  }
+  100% {
+    border-bottom-width: 100%;
+  }
+}
