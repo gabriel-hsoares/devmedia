@@ -1,0 +1,25 @@
+.secao-capa-sobre {
+  display: flex;
+  background-image: url('/public/assets/quem-somos.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.secao-capa-sobre div {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quem-somos {
+  padding: 80px 20px;
+}
+
+.paragrafos {
+  text-align: justify;
+}

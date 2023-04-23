@@ -1,0 +1,60 @@
+.secao-capa-produtos {
+  display: flex;
+  background-image: url('/public/assets/banner-produtos.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.secao-capa-produtos div {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-produtos {
+  line-height: 72px;
+}
+
+.titulo-produtos h1 {
+  color: aliceblue;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.secao-produtos {
+  padding: 80px 20px;
+}
+
+.btn{
+  padding: 8px;
+  background-image: linear-gradient(to left, #04446A,#214961,#0770AD);
+  background-size: 400% 100%;
+  animation: btn-animado 1.5s infinite alternate;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+@keyframes btn-animado {
+  0% {background-position-x: 0%;}
+  100%{background-position-x: 100%;}
+}
+
+@media screen and (max-width: 425px) {
+  .secao-capa-produtos {
+    background-position: right;
+  }
+
+  .titulo-produtos h1 {
+    font-size: 48px;
+  }
+}

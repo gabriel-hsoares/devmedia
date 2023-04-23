@@ -24,7 +24,7 @@ const Rodape = () => (
       </div>
     </div>
     <div className="direito-autoral limita-largura">
-      <p>&copy; Todos os direitos reservados. Beneficium Seguros - CNPJ: 37.962.949/0001-82</p>
+      <p>&copy; Todos os direitos reservados.</p>
     </div>
   </footer>
 );

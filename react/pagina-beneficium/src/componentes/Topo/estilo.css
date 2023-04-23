@@ -29,19 +29,16 @@ header {
 }
 
 .link-navegacao:hover {
-  animation: sub-animado 3s;
   border-bottom: 1px solid #fff;
 }
 
-@keyframes sub-animado {
-  0% {
-    border-bottom-width: 0%;
+@media screen and (max-width: 425px) {
+  .conteudo-topo {
+    flex-direction: column;
+  }
 
-  }
-  50% {
-    border-bottom-width: 50%;
-  }
-  100% {
-    border-bottom-width: 100%;
+  nav {
+    border-top: 1px solid rgb(217, 211, 211);
+    padding: 10px;
   }
 }
