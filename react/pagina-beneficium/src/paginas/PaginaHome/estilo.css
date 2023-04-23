@@ -1,6 +1,6 @@
 .secao-capa {
   display: flex;
-  background-image: url('/public/assets/capa.png');
+  background-image: url('/public/assets/capa.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
