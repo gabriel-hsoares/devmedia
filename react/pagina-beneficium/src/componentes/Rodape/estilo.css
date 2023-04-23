@@ -25,6 +25,18 @@ footer {
   padding: 20px;
 }
 
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais img {
+  width: 36px;
+  margin: 0 10px;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .rodape-site {
     align-items: center;
