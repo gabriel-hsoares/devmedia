@@ -42,11 +42,17 @@
 
 .btn:hover {
   cursor: pointer;
+  animation: anima 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes btn-animado {
   0% {background-position-x: 0%;}
   100%{background-position-x: 100%;}
+}
+
+@keyframes anima {
+  0%{transform: scale(1);}
+  100%{transform: scale(1.05);}
 }
 
 @media screen and (max-width: 425px) {
