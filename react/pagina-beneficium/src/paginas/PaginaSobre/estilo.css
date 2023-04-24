@@ -1,6 +1,6 @@
 .secao-capa-sobre {
   display: flex;
-  background-image: url('/public/assets/quem-somos.jpg');
+  background-image: url('/src/assets/quem-somos.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

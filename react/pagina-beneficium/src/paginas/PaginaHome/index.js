@@ -25,24 +25,24 @@ const PaginaHome = () => (
           </div>
           <div className="diferenciais">
             <div>
-              <img alt='Imagem Estrela' src='assets/destaque.png'/>
+              <img alt='Imagem Estrela' src='/assets/destaque.png'/>
             </div>
 
             <div>
               <div className="diferenca">
-                <img alt='Imagem Checkbox' src='assets/check.png'/>
+                <img alt='Imagem Checkbox' src='/assets/check.png'/>
                 <p>Atendimento personalizado</p>
               </div>
               <div className="diferenca">
-                <img alt='Imagem Checkbox' src='assets/check.png'/>
+                <img alt='Imagem Checkbox' src='/assets/check.png'/>
                 <p>Consultoria gratuita</p>
               </div>
               <div className="diferenca">
-                <img alt='Imagem Checkbox' src='assets/check.png'/>
+                <img alt='Imagem Checkbox' src='/assets/check.png'/>
                 <p>Flexibilidade na sua cotação</p>
               </div>
               <div className="diferenca">
-                <img alt='Imagem Checkbox' src='assets/check.png'/>
+                <img alt='Imagem Checkbox' src='/assets/check.png'/>
                 <p>equipe capacitada</p>
               </div>
             </div>
@@ -59,17 +59,17 @@ const PaginaHome = () => (
           <div className="cards">
             <div className="card">
               <h3>Missão</h3>
-              <img alt='Imagem Missão' src='assets/missao.png'/>
+              <img alt='Imagem Missão' src='/assets/missao.png'/>
               <p>Oferecer aos nossos clientes as melhores soluções para seu gerenciamento de risco e planejamento financeiro.</p>
             </div>
             <div className="card">
               <h3>Visão</h3>
-              <img alt='Imagem Visão' src='assets/visao.png'/>
+              <img alt='Imagem Visão' src='/assets/visao.png'/>
               <p>Estar em destaque dentre as corretoras do Ceará, sendo referência no Setor de Pessoas: Vida, Previdência e Saúde.</p>
             </div>
             <div className="card">
               <h3>Valores</h3>
-              <img alt='Imagem Valor' src='assets/valor.png'/>
+              <img alt='Imagem Valor' src='/assets/valor.png'/>
               <p>Garantir ao cliente a proteção, segurança e dignidade necessárias durante todas as fases de sua vida.</p>
             </div>
           </div>
@@ -83,21 +83,21 @@ const PaginaHome = () => (
           </div>
 
           <div className='todos-parceiros'>
-            <img alt='Imagem Icatu Seguros' src='assets/icatu.png'/>
-            <img alt='Imagem Bradesco Seguros' src='assets/bradesco.png'/>
-            <img alt='Imagem SulAmérica Seguros' src='assets/sulamerica.png'/>
-            <img alt='Imagem Amil' src='assets/amil.png'/>
-            <img alt='Imagem Unimed' src='assets/unimed.png'/>
-            <img alt='Imagem Hapvida' src='assets/hapvida.png'/>
-            <img alt='Imagem Bancorbrás' src='assets/bancorbras.png'/>
+            <img alt='Imagem Icatu Seguros' src='/assets/icatu.png'/>
+            <img alt='Imagem Bradesco Seguros' src='/assets/bradesco.png'/>
+            <img alt='Imagem SulAmérica Seguros' src='/assets/sulamerica.png'/>
+            <img alt='Imagem Amil' src='/assets/amil.png'/>
+            <img alt='Imagem Unimed' src='/assets/unimed.png'/>
+            <img alt='Imagem Hapvida' src='/assets/hapvida.png'/>
+            <img alt='Imagem Bancorbrás' src='/assets/bancorbras.png'/>
 
-            <img alt='Imagem Tokio Marine' src='assets/tokio.png'/>
-            <img alt='Imagem Porto Seguro' src='assets/porto.png'/>
-            <img alt='Imagem Essor Seguros' src='assets/essor.png'/>
-            <img alt='Imagem Allianz Seguros' src='assets/allianz.png'/>
-            <img alt='Imagem Berkley' src='assets/berkley.png'/>
-            <img alt='Imagem Pottencial' src='assets/pottencial.png'/>
-            <img alt='Imagem Akad' src='assets/akad.png'/>
+            <img alt='Imagem Tokio Marine' src='/assets/tokio.png'/>
+            <img alt='Imagem Porto Seguro' src='/assets/porto.png'/>
+            <img alt='Imagem Essor Seguros' src='/assets/essor.png'/>
+            <img alt='Imagem Allianz Seguros' src='/assets/allianz.png'/>
+            <img alt='Imagem Berkley' src='/assets/berkley.png'/>
+            <img alt='Imagem Pottencial' src='/assets/pottencial.png'/>
+            <img alt='Imagem Akad' src='/assets/akad.png'/>
           </div>
 
         </div>
