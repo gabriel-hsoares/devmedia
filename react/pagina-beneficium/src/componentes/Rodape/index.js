@@ -24,9 +24,9 @@ const Rodape = () => (
       </div>
     </div>
     <div className="redes-sociais limita-largura">
-      <a href='https://instagram.com/beneficiumseguros'><img alt='Imagem Instagram' target='_blank' src='assets/ig.png'/></a>
-      <a href='https://www.facebook.com/beneficiumseguros'><img alt='Imagem Facebook' target='_blank' src='assets/fb.png'/></a>
-      <a href='https://www.youtube.com/@beneficiumsegurosebenefici8970'><img alt='Imagem YouTube' target='_blank' src='assets/yt.png'/></a>
+      <a href='https://instagram.com/beneficiumseguros'><img alt='Imagem Instagram' target='_blank' src={require('../../assets/ig.png')}/></a>
+      <a href='https://www.facebook.com/beneficiumseguros'><img alt='Imagem Facebook' target='_blank' src={require('../../assets/fb.png')}/></a>
+      <a href='https://www.youtube.com/@beneficiumsegurosebenefici8970'><img alt='Imagem YouTube' target='_blank' src={require('../../assets/yt.png')}/></a>
     </div>
     <div className="direito-autoral limita-largura">
       <p>&copy; Todos os direitos reservados.</p>

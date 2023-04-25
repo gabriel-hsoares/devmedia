@@ -5,7 +5,7 @@ import './estilo.css';
 const Topo = () => (
   <header>
     <div className="conteudo-topo limita-largura">
-      <Link to='/home'><img alt='Logomarca Beneficium' src='/assets/logo-vazada.png'/></Link>
+      <Link to='/home'><img alt='Logomarca Beneficium' src={require('../../assets/logo-vazada.png')}/></Link>
 
       <nav>
         <Link className="link-navegacao" to='/home'>Home</Link>

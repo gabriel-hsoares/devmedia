@@ -16,6 +16,10 @@
   flex-direction: column;
 }
 
+.paragrafos p {
+  margin-bottom: 30px;
+}
+
 .quem-somos {
   padding: 80px 20px;
 }
