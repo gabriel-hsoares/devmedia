@@ -1,0 +1,30 @@
+.bemvindo {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.bemvindo h1 {
+  margin: 0 0 30px 0;
+}
+
+.bemvindo p {
+  margin: 30px 0;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.paragrafo-especial {
+  font-family: 'Great Vibes', sans-serif;
+  color: #b2987d;
+  font-size: 48px;
+}
+
+.imagem-fundo {
+  background-image: url('../assets/banner-barbearia.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
