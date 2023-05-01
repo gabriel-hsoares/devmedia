@@ -1,7 +1,6 @@
 header {
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid rgb(220, 214, 214);
 }
 
 .topo-pagina {
@@ -19,15 +18,43 @@ header {
   margin: 0 5px;
 }
 
-.botao p {
-  margin: 7px 5px;
-}
-
-.botao {
+button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 3px solid #b2987d;
-  padding: 0 10px;
+  padding: 4px 10px;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+.bemvindo {
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.bemvindo h1 {
+  margin: 0 0 30px 0;
+}
+
+.bemvindo p {
+  margin: 30px 0;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.paragrafo-especial {
+  font-family: 'Great Vibes', sans-serif;
+  color: #b2987d;
+  font-size: 48px;
+}
+
+.imagem-fundo {
+  background-image: url('/public/assets/banner-barbearia.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
 }

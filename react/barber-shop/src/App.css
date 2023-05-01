@@ -9,3 +9,13 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+
+.modo-escuro {
+  background-color: #000;
+  color: #fff;
+}
+
+.modo-claro {
+  background-color: #fff;
+  color: #000;
+}

@@ -8,7 +8,7 @@ import PaginaSobre from '../paginas/PaginaSobre';
 const Rotas = () => (
   <BrowserRouter>
     <Routes>
-      <Route path='/home' element={<PaginaHome/>}/>
+      <Route path='/' element={<PaginaHome/>}/>
       <Route path='/produtos' element={<PaginaProdutos/>}/>
       <Route path='/sobre' element={<PaginaSobre/>}/>
     </Routes>

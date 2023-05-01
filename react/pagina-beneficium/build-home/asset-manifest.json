@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.56ec54a2.css",
+    "main.js": "/home/static/js/main.68793f8f.js",
+    "static/js/787.26c0759e.chunk.js": "/home/static/js/787.26c0759e.chunk.js",
+    "static/media/porto.png": "/home/static/media/porto.e7cedd329a81adee29f8.png",
+    "static/media/quem-somos.jpg": "/home/static/media/quem-somos.2baa71a8e9e19666289c.jpg",
+    "static/media/nossos-produtos.jpg": "/home/static/media/nossos-produtos.27b66daf14a8a487d008.jpg",
+    "static/media/capa.jpg": "/home/static/media/capa.6134838db29718d20b6e.jpg",
+    "static/media/bradesco.png": "/home/static/media/bradesco.d6b396bb88c52397b5c1.png",
+    "static/media/logo-vazada.png": "/home/static/media/logo-vazada.f79e6a5533051a77b58b.png",
+    "static/media/sulamerica.png": "/home/static/media/sulamerica.1ca2df4495ef3ff4ca0b.png",
+    "static/media/hapvida.png": "/home/static/media/hapvida.3061efd14eaaa4f486b1.png",
+    "static/media/icatu.png": "/home/static/media/icatu.49735a3c2ce9af2ec2cd.png",
+    "static/media/akad.png": "/home/static/media/akad.38dabb9344a086323dfa.png",
+    "static/media/bancorbras.png": "/home/static/media/bancorbras.f31c8a2ed36c9ca813e4.png",
+    "static/media/allianz.png": "/home/static/media/allianz.4c3461d93da3d5534bd1.png",
+    "static/media/amil.png": "/home/static/media/amil.58d97ffc60be7470dd2b.png",
+    "static/media/pottencial.png": "/home/static/media/pottencial.27362d0dbf5baaaf99e8.png",
+    "static/media/berkley.png": "/home/static/media/berkley.11e0943ef69129ac42bd.png",
+    "static/media/essor.png": "/home/static/media/essor.8b076ae856f2865123d0.png",
+    "static/media/unimed.png": "/home/static/media/unimed.d6f59ef2b2681b861075.png",
+    "static/media/tokio.png": "/home/static/media/tokio.f3e5a5f00cfbdc6dfd20.png",
+    "index.html": "/home/index.html",
+    "main.56ec54a2.css.map": "/home/static/css/main.56ec54a2.css.map",
+    "main.68793f8f.js.map": "/home/static/js/main.68793f8f.js.map",
+    "787.26c0759e.chunk.js.map": "/home/static/js/787.26c0759e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ec54a2.css",
+    "static/js/main.68793f8f.js"
+  ]
+}
