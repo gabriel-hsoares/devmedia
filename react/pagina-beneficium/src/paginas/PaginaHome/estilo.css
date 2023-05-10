@@ -70,6 +70,11 @@
   width: 40px;
 }
 
+.img-destaque {
+  width: 192px;
+  height: 192px;
+}
+
 .diferenca p {
   margin-left: 20px;
   text-transform: uppercase;

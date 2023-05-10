@@ -19,8 +19,6 @@ function Topo(){
     <div className="conteudo-topo limita-largura">
       <Link to='/'><img className="logo-marca" alt='Logomarca Beneficium' src={require('../../assets/logo-vazada.png')}/></Link>
 
-      <Link to='/'><img className='logo-mobile' alt='Logomarca Beneficium' src={require('../../assets/b-beneficium.png')}/></Link>
-
       <nav className="menu-desktop">
         <Link className="link-navegacao" to='/'>Home</Link>
         <Link className="link-navegacao" to='/produtos'>Produtos</Link>

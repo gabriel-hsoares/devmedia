@@ -25,7 +25,7 @@ const PaginaHome = () => (
           </div>
           <div className="diferenciais">
             <div>
-              <img alt='Imagem Estrela' src={require('../../assets/destaque.png')}/>
+              <img class='img-destaque' alt='Imagem Estrela' src={require('../../assets/imagem-estrela-destaque.svg')}/>
             </div>
 
             <div>
@@ -108,7 +108,7 @@ const PaginaHome = () => (
         <div className="subtitulo">
           <h2><span>Como</span> Chegar?</h2>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.352557173851!2d-38.5015281243899!3d-3.733111396240813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74863b6aed93b%3A0x50bd7cbc9358b310!2sAv.%20Dom%20Lu%C3%ADs%2C%20300%20-%20Aldeota%2C%20Fortaleza%20-%20CE%2C%2060160-230!5e0!3m2!1spt-BR!2sbr!4v1681869456331!5m2!1spt-BR!2sbr" width="1024" title='pin' height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.352557173851!2d-38.5015281243899!3d-3.733111396240813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74863b6aed93b%3A0x50bd7cbc9358b310!2sAv.%20Dom%20Lu%C3%ADs%2C%20300%20-%20Aldeota%2C%20Fortaleza%20-%20CE%2C%2060160-230!5e0!3m2!1spt-BR!2sbr!4v1681869456331!5m2!1spt-BR!2sbr" width="100%" title='pin' height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
 
     </main>

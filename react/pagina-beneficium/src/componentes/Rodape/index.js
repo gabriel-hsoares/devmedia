@@ -29,7 +29,7 @@ const Rodape = () => (
       <a href='https://www.youtube.com/@beneficiumsegurosebenefici8970'><img alt='Imagem YouTube' target='_blank' src={require('../../assets/yt.png')}/></a>
     </div>
     <div className="direito-autoral limita-largura">
-      <p>&copy; Todos os direitos reservados.</p>
+      <p>&copy; Beneficium Seguros</p>
     </div>
   </footer>
 );
