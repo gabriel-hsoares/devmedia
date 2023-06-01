@@ -70,10 +70,10 @@
   width: 40px;
 }
 
-.img-destaque {
+/* .img-destaque {
   width: 192px;
   height: 192px;
-}
+} */
 
 .diferenca p {
   margin-left: 20px;
@@ -90,7 +90,7 @@
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 

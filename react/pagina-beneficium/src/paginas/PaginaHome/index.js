@@ -25,7 +25,7 @@ const PaginaHome = () => (
           </div>
           <div className="diferenciais">
             <div>
-              <img class='img-destaque' alt='Imagem Estrela' src={require('../../assets/imagem-estrela-destaque.svg')}/>
+              <img class='img-destaque' alt='Imagem Estrela' src={require('../../assets/destaque.png')}/>
             </div>
 
             <div>
