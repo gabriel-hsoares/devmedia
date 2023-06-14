@@ -105,11 +105,12 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 25px;
+  transition: 1s;
 }
 
 .card:hover {
   transform: scale(1.05);
-  transition: 0.5s ease-in-out;
+  /* transition: 0.5s ease-in-out; */
 }
 
 .card img {

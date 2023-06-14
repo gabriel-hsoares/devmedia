@@ -1,0 +1,26 @@
+header {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-height: 35px;
+}
+
+.moon {
+  width: 40px;
+  border-radius: 20px;
+  border: 1px solid #747272;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
