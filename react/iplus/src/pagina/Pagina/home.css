@@ -1,0 +1,131 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#imgFundo img {
+  width: 400px;
+}
+
+#imgFundo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.texto-banner {
+  width: 50%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.conhecer-servicos {
+  width: 50%;
+  margin: 30px auto 0 auto;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #098899;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.conhecer-servicos:hover {
+  background-color: rgb(6, 68, 77);
+  transform: scale(1.1);
+}
+
+h3 {
+  font-size: 40px;
+  /* margin-bottom: -15px; */
+  font-weight: 300;
+  margin-bottom: -10px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: rgb(9, 136, 153);
+}
+
+span {
+  font-weight: bold;
+  color: rgb(9, 136, 153);
+}
+
+.elemento {
+  margin: 0 4px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 30px;
+} 
+
+.wpp {
+  width: 35px;
+}
+
+.vantagens {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.vantagens img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.secao-diferenciais h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(9,136,153);
+  margin-bottom: 40px;
+  font-size: 42px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card img {
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid rgb(216, 210, 210);
+  border-radius: 12px;
+  box-shadow: 2px 2px 15px 2px #d9dde1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h4 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(9,136,153);
+}

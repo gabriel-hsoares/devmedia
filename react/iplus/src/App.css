@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.limita-largura {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.limita-largura-topo {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+section {
+  padding: 40px 20px;
+  width: 100%;
+}
+
+section:nth-child(odd) {
+  background-color: #ececec;
+}

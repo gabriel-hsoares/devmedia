@@ -1,0 +1,41 @@
+header {
+  background-color: #000;
+  width: 100%;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+}
+
+.contato-wpp {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.elemento {
+  margin: 0 4px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 30px;
+} 
+
+.wpp {
+  width: 25px;
+}
