@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    #quadroLogin {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      height: 100vh;
+    }
+    input {
+      width: 200px;
+      margin: 10px 0;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div id="quadroLogin">
+    <h1>Faça seu login</h1>
+    <input type="text" id="login" required placeholder="Digite seu login">
+    <input type="password" id="senha" required placeholder="Digite sua senha">
+    <input class="enviar" type="button"  value="cadastrar" onclick="cadastrar()">
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

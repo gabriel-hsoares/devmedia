@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Idade</title>
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .calcular {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    input {
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    #resposta {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="calcular">
+    <h1>Calcule sua idade aqui</h1>
+    <input type="number" id="idade" placeholder="digite seu ano de nascimento">
+    <input type="text" id="nome" placeholder="digite seu nome">
+    <input type="button" value="Calcular idade" onclick="calcularIdade()">
+    <div id="resposta">Aqui sairá o resultado</div>
+  </div>
+
+  <script>
+    function calcularIdade() {
+      var n = document.getElementById('nome')
+      var nome = n.value
+      var tn1 = document.getElementById("idade")
+      var anoNascimento = Number(tn1.value);
+      var resposta = document.getElementById('resposta')
+
+      var data = new Date();
+      var anoAtual = data.getFullYear();
+
+      var idade = anoAtual - anoNascimento;
+      resposta.innerHTML = `${nome}, sua idade é igual a ${idade}`
+    }
+  </script>
+</body>
+</html>
