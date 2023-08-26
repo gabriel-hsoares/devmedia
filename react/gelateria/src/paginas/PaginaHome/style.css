@@ -7,8 +7,10 @@ main .secao-banner {
   margin-top: 80px;
   display: flex;
   align-items: center;
+  z-index: 1;
   justify-content: center;
   background-color: rgb(249, 219, 121);
+  /* background-color: transparent; */
 }
 
 .texto-banner {
